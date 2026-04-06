@@ -11,12 +11,12 @@ const projects = [
     desc: "A high-performance store featuring TanStack Query caching and personalized user carts."
   },
   {
-    title: "ZenTask",
-    type: "Management System",
-    image: "https://res.cloudinary.com/dewiz9758/image/upload/v1774980014/bandicam_2026-03-31_22-37-05-856_sjndf8.jpg",
-    link: "https://zen-task-task-manager.vercel.app",
-    repo: "https://github.com/fahad-aslam8743/ZenTask-Task-Manager.git",
-    desc: "Professional Kanban board with Supabase backend and real-time drag-and-drop logic."
+    title: "CineHub",
+    type: "Movie Search App",
+    image: "https://res.cloudinary.com/dewiz9758/image/upload/q_auto/f_auto/v1775472736/bandicam_2026-04-06_15-28-14-405_eyqlqm.jpg",
+    link: "https://cine-hub-puce.vercel.app/",
+    repo: "https://github.com/fahad-aslam8743/CineHub.git",
+    desc: "CineHub is a high-performance, cinematic web application built with React and TanStack Query."
   },
   {
     title: "Finance Hub",
@@ -32,7 +32,7 @@ const ProjectSection = () => {
   return (
     <section className="py-20 md:py-32 px-5 md:px-6 bg-[#030712] relative overflow-hidden" id="projects">
       
-      {}
+      
       <div className="max-w-7xl mx-auto mb-12 md:mb-20 relative">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -54,7 +54,7 @@ const ProjectSection = () => {
           />
         </motion.div>
         
-        {}
+        
         <div className="absolute -top-10 left-0 text-[10rem] font-black text-white/[0.02] select-none pointer-events-none hidden lg:block uppercase">
           Works
         </div>
@@ -71,7 +71,7 @@ const ProjectSection = () => {
               transition={{ delay: i * 0.1 }}
               className="group relative flex flex-col h-full rounded-[2rem] md:rounded-[2.5rem] bg-slate-900/20 border border-white/5 overflow-hidden transition-all duration-500 hover:bg-slate-900/40 hover:border-blue-500/30 shadow-2xl"
             >
-              {}
+              
               <div className="relative aspect-video overflow-hidden">
                 <img 
                   src={p.image} 
@@ -82,7 +82,7 @@ const ProjectSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#030712] via-transparent to-transparent opacity-60" />
               </div>
 
-              {}
+              
               <div className="p-6 md:p-8 flex flex-col flex-grow relative">
                 <div className="mb-4">
                   <span className="text-[9px] md:text-[10px] font-bold tracking-[0.2em] md:tracking-[0.3em] text-blue-500 uppercase">{p.type}</span>
@@ -95,7 +95,7 @@ const ProjectSection = () => {
                   {p.desc}
                 </p>
 
-                {}
+                
                 <div className="flex gap-3 md:gap-4 mt-auto">
                   <motion.a
                     href={p.link}

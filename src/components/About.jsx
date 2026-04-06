@@ -17,8 +17,7 @@ const About = () => {
 
   return (
     <section className="py-20 md:py-32 px-5 md:px-6 bg-[#030712] relative overflow-hidden" id="about">
-      
-      {}
+  
       <div className="max-w-6xl mx-auto mb-12 md:mb-20 relative">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -39,8 +38,8 @@ const About = () => {
             className="h-1.5 md:h-2 bg-blue-600 mt-4 rounded-full"
           />
         </motion.div>
-        
-        {}
+      
+      
         <div className="absolute -top-10 left-0 text-[10rem] font-black text-white/[0.02] select-none pointer-events-none hidden lg:block">
           ABOUT
         </div>
@@ -54,12 +53,12 @@ const About = () => {
         className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6"
       >
         
-        {}
+      
         <motion.div 
           variants={itemVariants}
           className="md:col-span-8 group relative p-8 md:p-10 rounded-[2.5rem] md:rounded-[3rem] bg-slate-900/20 border border-white/5 overflow-hidden flex flex-col justify-between hover:bg-slate-900/40 transition-all duration-500 shadow-2xl"
         >
-          {}
+          
           <div className="absolute -top-24 -right-24 w-48 h-48 md:w-64 md:h-64 bg-blue-500/10 blur-[60px] md:blur-[80px] rounded-full group-hover:bg-blue-500/20 transition-all duration-700" />
           
           <div className="relative z-10">
@@ -82,7 +81,7 @@ const About = () => {
           </div>
         </motion.div>
 
-        {}
+        
         <motion.div 
           variants={itemVariants}
           whileHover={{ y: -5 }}
@@ -106,7 +105,7 @@ const About = () => {
           </p>
         </motion.div>
 
-        {}
+        
         <motion.div 
           variants={itemVariants}
           className="md:col-span-12 group p-8 md:p-10 rounded-[2.5rem] md:rounded-[3rem] bg-slate-900/20 border border-white/5 flex flex-col lg:flex-row gap-8 lg:gap-10 items-center hover:border-blue-500/30 transition-all duration-500"
@@ -122,7 +121,7 @@ const About = () => {
             </p>
           </div>
           
-          {}
+          
           <div className="w-full lg:w-auto flex flex-row justify-center gap-3 md:gap-4">
             <div className="flex-1 lg:flex-none p-5 md:p-6 rounded-3xl bg-white/5 border border-white/5 text-center min-w-[100px] md:min-w-[120px]">
               <div className="text-2xl md:text-3xl font-black text-white">2026</div>

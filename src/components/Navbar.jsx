@@ -58,7 +58,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${
       scrolled ? "py-2" : "py-4 md:py-6"
     }`}>
-      {}
+      
       <style dangerouslySetInnerHTML={{ __html: `
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
@@ -71,7 +71,7 @@ const Navbar = () => {
       }`}>
         <div className="flex justify-center md:justify-between items-center relative min-h-[44px]">
           
-          {}
+          
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -81,7 +81,7 @@ const Navbar = () => {
             FAHAD<span className="text-blue-500">.</span>
           </motion.div>
           
-          {}
+          
           <div className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center">
             <div className="flex items-center p-1 bg-white/5 rounded-xl border border-white/5 relative no-scrollbar overflow-hidden">
               {navLinks.map((link) => {
@@ -112,7 +112,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {}
+          
           <motion.a 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

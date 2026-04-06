@@ -22,14 +22,14 @@ const Education = () => {
   return (
     <section className="py-20 md:py-32 px-5 md:px-6 bg-[#030712] relative overflow-hidden" id="education">
       
-      {}
+      
       <div className="absolute top-1/2 right-0 text-[10rem] font-black text-white/[0.02] select-none pointer-events-none hidden lg:block uppercase">
         Academia
       </div>
 
       <div className="max-w-6xl mx-auto relative z-10">
         
-        {}
+        
         <div className="mb-12 md:mb-20">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -51,7 +51,7 @@ const Education = () => {
           </motion.div>
         </div>
 
-        {}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {education.map((edu, i) => (
             <motion.div
@@ -63,7 +63,7 @@ const Education = () => {
               whileHover={{ y: -10 }}
               className="group relative p-8 md:p-10 rounded-[2.5rem] md:rounded-[3rem] bg-slate-900/20 border border-white/5 hover:bg-slate-900/40 hover:border-blue-500/30 transition-all duration-500 shadow-2xl"
             >
-              {}
+              
               <div className="flex flex-row justify-between items-center mb-6 md:mb-8">
                 <div className="p-3 md:p-4 rounded-xl md:rounded-2xl bg-blue-500/10 text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-all duration-500">
                   <FiBookOpen className="w-5 h-5 md:w-6 md:h-6" />
@@ -73,7 +73,7 @@ const Education = () => {
                 </span>
               </div>
 
-              {}
+              
               <div className="space-y-2 md:space-y-3">
                 <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
                   {edu.degree}
@@ -86,7 +86,7 @@ const Education = () => {
                 </p>
               </div>
 
-              {}
+              
               <div className="mt-6 md:mt-8 pt-6 border-t border-white/5">
                 <div className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />

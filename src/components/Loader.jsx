@@ -9,12 +9,12 @@ const Loader = () => {
       className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#030712]"
     >
       <div className="relative">
-        {}
+        
         <h1 className="text-white font-black text-4xl tracking-tighter z-10 relative">
           FAHAD<span className="text-blue-500">.</span>
         </h1>
         
-        {}
+        
         <div className="absolute -bottom-4 left-0 w-full h-[2px] bg-white/10 rounded-full overflow-hidden">
           <motion.div 
             initial={{ width: 0 }}

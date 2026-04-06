@@ -73,7 +73,7 @@ function App() {
   return (
     <div className="bg-[#030712] text-slate-200 selection:bg-blue-500/30 selection:text-blue-200 min-h-screen outline-none">
       
-      {}
+      
       {!loading && (
         <motion.div
           className="fixed top-0 left-0 right-0 h-[2px] bg-blue-600 origin-left z-[110]"
@@ -93,10 +93,10 @@ function App() {
           >
             <Navbar />
             
-            {}
+            
             <ScrollToTop />
             
-            {}
+            
             <div id="home">
               <Hero />
             </div>

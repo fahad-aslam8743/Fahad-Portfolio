@@ -40,7 +40,7 @@ const Skills = () => {
   return (
     <section className="py-20 md:py-32 px-5 md:px-6 bg-[#030712] relative overflow-hidden" id="skills">
       
-      {}
+      
       <div className="max-w-6xl mx-auto mb-12 md:mb-20 relative">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -62,7 +62,7 @@ const Skills = () => {
           />
         </motion.div>
         
-        {}
+        
         <div className="absolute -top-10 left-0 text-[10rem] font-black text-white/[0.02] select-none pointer-events-none hidden lg:block uppercase">
           Stack
         </div>
@@ -89,20 +89,20 @@ const Skills = () => {
               whileTap={{ scale: 0.95 }}
               className="group relative p-6 md:p-10 rounded-[2rem] md:rounded-[2.5rem] bg-slate-900/20 border border-white/5 flex flex-col items-center justify-center gap-4 md:gap-6 transition-all duration-500 hover:border-blue-500/30 hover:bg-slate-900/40 shadow-2xl overflow-hidden"
             >
-              {}
+              
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_0%,_transparent_70%)] from-blue-500/5 pointer-events-none" />
 
-              {}
+              
               <div className={`text-4xl md:text-5xl text-slate-500 transition-all duration-500 ${skill.color} drop-shadow-2xl`}>
                 {skill.icon}
               </div>
               
-              {}
+              
               <span className="text-slate-400 text-[9px] md:text-[10px] font-mono font-bold tracking-[0.2em] md:tracking-[0.3em] uppercase group-hover:text-white transition-colors duration-300">
                 {skill.name}
               </span>
 
-              {}
+              
               <div className="absolute top-4 right-4 w-1 h-1 rounded-full bg-white/5 group-hover:bg-blue-500 transition-colors" />
             </motion.div>
           ))}

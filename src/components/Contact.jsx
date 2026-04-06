@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <section className="py-20 md:py-32 px-5 md:px-6 bg-[#030712] relative overflow-hidden" id="contact">
       
-      {}
       <div className="max-w-6xl mx-auto mb-12 md:mb-20 relative">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -27,14 +26,12 @@ const Contact = () => {
           />
         </motion.div>
         
-        {}
         <div className="absolute -top-10 left-0 text-[10rem] font-black text-white/[0.02] select-none pointer-events-none hidden lg:block uppercase">
           Hello
         </div>
       </div>
 
       <div className="max-w-4xl mx-auto relative">
-        {}
         <div className="absolute -top-10 -left-10 w-32 h-32 md:w-64 md:h-64 bg-blue-600/10 blur-[60px] md:blur-[100px] rounded-full pointer-events-none" />
         
         <motion.div 
@@ -43,10 +40,8 @@ const Contact = () => {
           viewport={{ once: true }}
           className="relative overflow-hidden rounded-[2.5rem] md:rounded-[4rem] bg-slate-900/20 border border-white/5 p-8 md:p-24 text-center backdrop-blur-3xl shadow-2xl"
         >
-          {}
           <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[grid-white_20px]" />
 
-          {}
           <div className="inline-flex p-4 md:p-5 rounded-2xl md:rounded-3xl bg-blue-500/10 text-blue-400 mb-6 md:mb-10 relative z-10">
             <FiMessageSquare size={32} className="md:w-10 md:h-10" />
           </div>
@@ -69,7 +64,6 @@ const Contact = () => {
             Send an Email <FiArrowUpRight className="text-xl md:text-2xl" />
           </motion.a>
 
-          {}
           <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t border-white/5 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-[8px] md:text-[10px] font-mono text-slate-600 uppercase tracking-[0.2em] md:tracking-[0.4em] relative z-10">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />

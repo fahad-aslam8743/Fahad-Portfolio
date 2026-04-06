@@ -9,7 +9,7 @@ const Hero = () => {
    
     <section className="relative min-h-[100dvh] flex flex-col justify-center items-center px-6 py-24 md:py-0 overflow-hidden bg-[#030712]" id="home">
       
-      {}
+      
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] md:w-[1000px] md:h-[600px] bg-blue-600/10 blur-[60px] md:blur-[160px] rounded-full pointer-events-none z-0" />
 
       <motion.div
@@ -19,7 +19,7 @@ const Hero = () => {
        
         className="z-10 text-center w-full md:-mt-16"
       >
-        {}
+        
         <motion.div 
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const Hero = () => {
           </span>
         </motion.div>
         
-        {}
+        
         <h1 className="text-[17vw] sm:text-[15vw] md:text-[10rem] font-black tracking-[-0.05em] text-white leading-[0.9] md:leading-[0.8] mb-8 select-none">
           Fahad <br className="xs:hidden" /> 
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-slate-100 via-slate-400 to-slate-700">
@@ -40,7 +40,7 @@ const Hero = () => {
           </span>
         </h1>
         
-        {}
+        
         <div className="h-6 md:h-10 text-sm md:text-3xl font-light text-slate-400 mb-12 md:mb-16 tracking-[0.05em] md:tracking-[0.1em]">
           <TypeAnimation
             sequence={[
@@ -53,7 +53,7 @@ const Hero = () => {
           />
         </div>
 
-        {}
+        
         <div className="flex gap-8 md:gap-12 justify-center items-center">
           {[ 
             { Icon: FaGithub, link: "https://github.com/fahad-aslam8743", label: "Github" },
@@ -79,8 +79,7 @@ const Hero = () => {
         </div>
       </motion.div>
       
-      {}
-      {}
+     
       <motion.div 
         animate={{ opacity: [0.3, 0.6, 0.3], y: [0, 5, 0] }}
         transition={{ duration: 2.5, repeat: Infinity }}
